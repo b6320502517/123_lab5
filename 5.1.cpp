@@ -10,7 +10,7 @@ int main(){
 	w=n-(m-1);
 	i1=0,j1=0;
 	while(1){
-		for(i=i1;i<w;i++){
+		for(i=i1;i<n-(m-1);i++){
 			for(j=j1;j<w;j++){
 				c[l]+=a[i][j];
 			printf("%d %d",a[i][j],c[l]);
