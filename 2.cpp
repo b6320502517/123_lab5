@@ -12,5 +12,14 @@ int main(){
   	l=((n+k)/2);
   	
   }
-
+	for(i=0;i<(n+k)/2;i++){
+		for(j=0;j<n;j++){
+			if(j==(n/2)-i||j==(n/2)+i)
+				printf("*");
+			else
+				printf("_");
+		}
+		printf("\n");
+	}
+	return 0;
 }
